@@ -11,7 +11,6 @@ import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
-import com.banglabs.al_quran.BuildConfig
 import com.banglabs.al_quran.application.Constant.Companion.EMAIL
 import com.banglabs.al_quran.application.Constant.Companion.FACEBOOK
 import com.banglabs.al_quran.application.Constant.Companion.FACEBOOK_WEB
@@ -26,7 +25,7 @@ import com.banglabs.al_quran.databinding.ActivityAboutBinding
 import com.banglabs.al_quran.theme.ApplicationTheme
 import com.banglabs.al_quran.uiClass.CustomToast
 import com.banglabs.al_quran.utils.ContextUtils
-
+import com.google.android.datatransport.BuildConfig
 import java.util.*
 
 class AboutActivity : AppCompatActivity() {
